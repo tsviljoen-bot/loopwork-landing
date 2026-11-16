@@ -9,6 +9,14 @@ const CLOUDINARY_CLOUD_NAME = 'YOUR_CLOUD_NAME';
 const CLOUDINARY_UPLOAD_PRESET = 'YOUR_UNSIGNED_PRESET';
 // ---------------------------------------------------------------------
 
+// --- Where leads actually go --------------------------------------------
+// No form-backend account (Formspree/Tally/etc.) is set up yet, so
+// submitting opens a prefilled email to this address instead — the visitor
+// still has to hit send themselves, but nothing is silently lost. Swap in
+// a real backend later for a smoother (no-click-required) version of this.
+const CONTACT_EMAIL = 'hello@loopwork.example';
+// ---------------------------------------------------------------------
+
 const form = document.getElementById('lead-form');
 const mediaInput = document.getElementById('media');
 const mediaPreview = document.getElementById('media-preview');
@@ -79,22 +87,41 @@ form.addEventListener('submit', async (e) => {
     }
   }
 
-  // TODO: send these fields (plus uploadedUrls) to a real form backend
-  // (Formspree, Tally, a serverless function, etc.) so the lead and their
-  // media arrive together. Right now this just logs locally.
-  console.log('Lead submitted', {
+  const lead = {
     name: form.name.value,
     business: form.business.value,
     email: form.email.value,
     platforms: form.platforms.value,
     media: uploadedUrls,
-  });
+  };
+  console.log('Lead submitted', lead);
+
+  // TODO: once a real form backend (Formspree/Tally/etc.) is set up, send
+  // `lead` there instead so submission doesn't require the visitor to
+  // manually hit send in their own email client.
+  const bodyLines = [
+    `Business: ${lead.business}`,
+    `Email: ${lead.email}`,
+    `Platforms: ${lead.platforms || '(not specified)'}`,
+  ];
+  if (lead.media.length) {
+    bodyLines.push('Files:', ...lead.media);
+  }
+  const mailto =
+    `mailto:${CONTACT_EMAIL}` +
+    `?subject=${encodeURIComponent(`Fit check request — ${lead.business || lead.name}`)}` +
+    `&body=${encodeURIComponent(bodyLines.join('\n'))}`;
+  // An <a> click (not window.location.href) avoids reloading/navigating
+  // this page if the browser has no mail handler registered.
+  const link = document.createElement('a');
+  link.href = mailto;
+  link.click();
 
   uploadStatus.hidden = true;
   formNote.hidden = false;
   formNote.textContent = uploadedUrls.length
-    ? `Thanks — we'll be in touch shortly. Received ${uploadedUrls.length} file(s).`
-    : "Thanks — we'll be in touch shortly.";
+    ? "Opening your email now — hit send and we'll be in touch. We've also noted your file(s)."
+    : "Opening your email now — just hit send and we'll be in touch.";
 
   form.reset();
   mediaPreview.innerHTML = '';

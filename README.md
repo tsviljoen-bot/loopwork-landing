@@ -30,6 +30,12 @@ Two service lines:
 "Loopwork" is a placeholder working name — check domain/trademark availability
 before using it publicly.
 
+**Before promoting this to anyone:** the actual service mechanics (Grok/AI
++ scheduler, or AI + accounting connector) have never been run end-to-end —
+see [`VALIDATION-DRYRUN.md`](VALIDATION-DRYRUN.md) for the one dry run that
+needs to happen first, and why it should target a cheaper path than xAI's
+literal "Grok Bot" product.
+
 ## Status
 
 - Static HTML/CSS/JS, no build step, no dependencies.
@@ -73,9 +79,22 @@ for either.
 ## Still needs your input
 
 - A real contact address in place of the `hello@loopwork.example`
-  placeholder used for the lighter "just ask a question" link and footer.
+  placeholder (`CONTACT_EMAIL` in `script.js`, and the footer/lighter-CTA
+  links in `index.html`).
 - No analytics on the page yet, so there's no way to tell if it's actually
   converting — worth adding once you have a provider account for it.
+
+## Known limitation: the lead form
+
+Submitting opens a prefilled `mailto:` link so a lead reaches you without
+needing any new backend account — tested in an automated browser pane here,
+which has no mail handler registered and reloads the page as a fallback
+instead of opening one; a real browser with a configured mail app/webmail
+should just open that instead, without touching the page. Still, on a
+visitor's device with no mail handler at all, this could visibly fail —
+worth testing from a couple of real browsers/phones before relying on it,
+and worth replacing with a real form backend (Formspree/Tally) once you've
+set one up, since that doesn't depend on the visitor's own email setup.
 
 ## Business-model note
 
