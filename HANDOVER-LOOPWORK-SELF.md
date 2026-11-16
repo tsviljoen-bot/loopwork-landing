@@ -5,6 +5,10 @@ first client — promoting itself the same way it would promote a real
 client's business. Fill in the one remaining bracket (owner contact)
 before pasting this into Grok or whichever assistant ends up connected.
 
+Give the assistant [`SITE-CONTENT-REFERENCE.md`](SITE-CONTENT-REFERENCE.md)
+alongside this brief — the verbatim site text, so anything it drafts or
+answers about Loopwork stays consistent with what the page actually says.
+
 ## Who this is for
 
 - Business name: Loopwork
