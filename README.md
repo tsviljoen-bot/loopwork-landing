@@ -33,6 +33,8 @@ Both checklists hand off to [`HANDOVER-TEMPLATE.md`](HANDOVER-TEMPLATE.md)
 at setup time — fill it in with what you learned during discovery, then
 give the whole thing to whichever AI assistant ends up connected as its
 starting context (brand voice, boundaries, what it's actually there to do).
+[`HANDOVER-LOOPWORK-SELF.md`](HANDOVER-LOOPWORK-SELF.md) is a filled-in
+example, using Loopwork as its own first client to promote itself.
 
 "Loopwork" is a placeholder working name — check domain/trademark availability
 before using it publicly.
