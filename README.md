@@ -60,10 +60,18 @@ end-to-end yet. The realistic path is:
 5. Hand off — from there, the client runs it themselves from their own
    chat. You're not the approval gate; they are.
 
+## Pricing
+
+Founding-client offer: first 3 clients get a free setup (either service
+line) in exchange for a testimonial and permission to use their business as
+a case study. There's no backend counter — once 3 are signed, manually
+update the hero badge and FAQ answer in `index.html` to reflect standard
+pricing: social media setup R4,000–R7,000 once-off, financial visibility
+setup R7,000–R12,000 once-off, optional R500–R1,000/month support retainer
+for either.
+
 ## Still needs your input
 
-- Real pricing in the FAQ's "What does this actually cost?" answer
-  (`index.html`) — currently a `[TODO]` placeholder.
 - A real contact address in place of the `hello@loopwork.example`
   placeholder used for the lighter "just ask a question" link and footer.
 - No analytics on the page yet, so there's no way to tell if it's actually
