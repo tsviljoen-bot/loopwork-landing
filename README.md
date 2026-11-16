@@ -1,9 +1,19 @@
 # Loopwork — AI automation for small businesses (landing page)
 
-Lead-gen landing page: scenario-based use cases showing how AI-drafted,
-human-approved social media automation helps small businesses, with a
-"request a fit check" contact form. Implementation work only happens for
-businesses that respond — nothing is built or sold until there's real demand.
+Lead-gen landing page: scenario-based use cases showing how an AI assistant
+running on a small business's *own* accounts can handle their social media,
+with a "request a fit check" contact form. Implementation work only happens
+for businesses that respond — nothing is built or sold until there's real
+demand.
+
+**Business model:** this is a one-time setup/onboarding service, not an
+ongoing managed-posting service. The client ends up with their own Grok/X
+account, their own scheduler account, and their own social accounts, all
+connected and seeded with their brand voice — then they run it themselves
+from their own chat with it going forward. Loopwork's job is the setup and
+handoff, not sitting in the loop day-to-day (an ongoing retainer can be a
+separate, optional offer — see "Business-model note" below). See
+[`ONBOARDING.md`](ONBOARDING.md) for the actual client setup checklist.
 
 "Loopwork" is a placeholder working name — check domain/trademark availability
 before using it publicly.
@@ -20,23 +30,29 @@ before using it publicly.
   file URLs actually arrive somewhere — requires its own account sign-up.
 - No domain registered, no hosting account created, nothing deployed.
 
-## What's still manual before media reaches "Grok Bot"
+## What's still manual before a client is actually running this
 
-Uploading files here does not post them anywhere by itself. The realistic
-pipeline once a client submits media is:
+Uploading files here (an optional way for a lead to share samples before
+onboarding) does not post them anywhere by itself, and nothing is automated
+end-to-end yet. The realistic path is:
 
 1. Create a free Cloudinary account and an **unsigned** upload preset, then
    put the cloud name + preset name into `script.js` (`CLOUDINARY_CLOUD_NAME`
    / `CLOUDINARY_UPLOAD_PRESET`). Until then, uploads are skipped.
-2. Wire the form to a real backend (Formspree/Tally/etc.) so you actually
-   receive each lead's details + uploaded file URLs.
-3. Create your own account with a scheduler that Grok Bot connects to
-   (e.g. Postiz) and connect the client's social accounts to it.
-4. Draft posts using the client's uploaded media (by hand, or later via a
-   script against that scheduler's API) and push them into the scheduler's
-   queue.
-5. A human still approves before anything actually publishes — same
-   approval gate as everywhere else in this plan.
+2. Wire the lead form to a real backend (Formspree/Tally/etc.) so leads
+   actually reach you.
+3. For each client who signs up, walk them through `ONBOARDING.md`: their
+   own Grok/X access, their own scheduler account, their own social
+   accounts, all connected to each other.
+4. Seed their assistant with brand voice and any sample media they shared.
+5. Hand off — from there, the client runs it themselves from their own
+   chat. You're not the approval gate; they are.
+
+## Business-model note
+
+A pure one-time setup fee has no recurring revenue — worth deciding whether
+to also offer an optional ongoing retainer (maintenance, re-seeding brand
+voice, troubleshooting) rather than relying on setup fees alone.
 
 ## Running locally
 
