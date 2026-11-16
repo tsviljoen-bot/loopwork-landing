@@ -7,13 +7,25 @@ for businesses that respond — nothing is built or sold until there's real
 demand.
 
 **Business model:** this is a one-time setup/onboarding service, not an
-ongoing managed-posting service. The client ends up with their own Grok/X
-account, their own scheduler account, and their own social accounts, all
-connected and seeded with their brand voice — then they run it themselves
-from their own chat with it going forward. Loopwork's job is the setup and
-handoff, not sitting in the loop day-to-day (an ongoing retainer can be a
-separate, optional offer — see "Business-model note" below). See
-[`ONBOARDING.md`](ONBOARDING.md) for the actual client setup checklist.
+ongoing managed-posting service. The client ends up with their own accounts
+— Grok/X, a scheduler, their social accounts, and/or their accounting
+platform — all connected and configured, then they run it themselves from
+their own chat going forward. Loopwork's job is the setup and handoff, not
+sitting in the loop day-to-day (an ongoing retainer can be a separate,
+optional offer — see "Business-model note" below).
+
+Two service lines:
+
+- **Social media** — drafts and schedules posts from an AI assistant
+  connected to the client's own social accounts. See
+  [`ONBOARDING.md`](ONBOARDING.md).
+- **Financial visibility / MI** — connects an AI assistant read-only to the
+  client's own accounting platform (Xero, QuickBooks, Sage) so they can ask
+  plain questions about cash flow, debtors, margin, etc. This is a
+  materially higher-trust setup than social media — see
+  [`ONBOARDING-MI.md`](ONBOARDING-MI.md), which defaults every connection
+  to read-only and flags that AI-generated financial summaries can be
+  wrong and aren't a substitute for a bookkeeper/accountant.
 
 "Loopwork" is a placeholder working name — check domain/trademark availability
 before using it publicly.

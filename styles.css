@@ -93,6 +93,13 @@ section { padding: 72px 0; }
   margin-bottom: 14px;
 }
 
+.services .steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-top: 8px;
+}
+
 .scenarios { background: var(--paper-raised); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .scenario-grid {
   display: grid;
@@ -165,7 +172,7 @@ section { padding: 72px 0; }
 .site-footer p { font-size: 0.85rem; margin: 0; }
 
 @media (max-width: 760px) {
-  .how .steps { grid-template-columns: 1fr; }
+  .how .steps, .services .steps { grid-template-columns: 1fr; }
   .scenario-grid { grid-template-columns: 1fr; }
   section { padding: 48px 0; }
   .hero { padding-top: 56px; }
