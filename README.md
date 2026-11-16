@@ -29,6 +29,11 @@ Two service lines:
   to read-only and flags that AI-generated financial summaries can be
   wrong and aren't a substitute for a bookkeeper/accountant.
 
+Both checklists hand off to [`HANDOVER-TEMPLATE.md`](HANDOVER-TEMPLATE.md)
+at setup time — fill it in with what you learned during discovery, then
+give the whole thing to whichever AI assistant ends up connected as its
+starting context (brand voice, boundaries, what it's actually there to do).
+
 "Loopwork" is a placeholder working name — check domain/trademark availability
 before using it publicly.
 

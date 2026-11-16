@@ -45,7 +45,11 @@ know what the assistant can and can't change.
 ## 4. Setup (done together, client driving the actual sign-ins)
 
 - [ ] Connect the accounting platform to the chosen connector, read-only.
-- [ ] Connect that connector to their Grok/AI assistant.
+- [ ] Connect that connector to their AI assistant.
+- [ ] Fill in the financial-visibility section of
+      [`HANDOVER-TEMPLATE.md`](HANDOVER-TEMPLATE.md) and feed it to the
+      assistant as its starting context, so it knows the read-only
+      boundary and the disclaimer line before answering anything real.
 - [ ] Run a test question through the full loop — e.g. "what's my cash
       flow this month" — and have the client confirm the answer against
       their own books before trusting it for anything real.

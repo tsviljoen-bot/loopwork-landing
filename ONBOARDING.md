@@ -30,9 +30,10 @@ before a session — provider plans and features change.
 
 ## 3. Setup (done together, with the client driving the actual sign-ins)
 
-- [ ] Connect Grok Bot to the scheduler account.
-- [ ] Feed the assistant the brand voice notes and sample media from
-      discovery.
+- [ ] Connect the AI assistant to the scheduler account.
+- [ ] Fill in [`HANDOVER-TEMPLATE.md`](HANDOVER-TEMPLATE.md) with what you
+      learned in discovery, and feed the whole thing to the assistant as
+      its starting context.
 - [ ] Run one test draft through the full loop: assistant drafts → client
       approves inside their own chat → scheduler queues it → client
       confirms it looks right before anything goes live.
