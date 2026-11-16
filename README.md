@@ -1,5 +1,7 @@
 # Loopwork — AI automation for small businesses (landing page)
 
+**Live at:** https://tsviljoen-bot.github.io/loopwork-landing/
+
 Lead-gen landing page: scenario-based use cases showing how an AI assistant
 running on a small business's *own* accounts can handle their social media,
 with a "request a fit check" contact form. Implementation work only happens
