@@ -109,8 +109,13 @@
       <label for="platforms">Which platforms matter most to you?</label>
       <input type="text" id="platforms" name="platforms" placeholder="e.g. Instagram, TikTok, Facebook">
 
+      <label for="media">Got photos or videos we can use? (optional)</label>
+      <input type="file" id="media" name="media" accept="image/*,video/*" multiple>
+      <ul id="media-preview" class="media-preview"></ul>
+
       <button type="submit" class="btn-primary">Request a fit check</button>
     </form>
+    <p id="upload-status" class="form-note" hidden></p>
     <p id="form-note" class="form-note" hidden>Thanks — we'll be in touch shortly.</p>
   </div>
 </section>

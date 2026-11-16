@@ -142,6 +142,20 @@ section { padding: 72px 0; }
 }
 .lead-form input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
 .lead-form button { margin-top: 18px; width: fit-content; }
+.lead-form input[type="file"] {
+  padding: 9px 10px;
+  background: var(--paper-raised);
+}
+.media-preview {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  display: grid;
+  gap: 4px;
+}
+.media-preview .file-error { color: #b4392b; font-weight: 600; }
 .form-note { margin-top: 14px; font-weight: 600; color: var(--accent); }
 
 .site-footer {
