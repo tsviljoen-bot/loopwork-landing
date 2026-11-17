@@ -1,7 +1,7 @@
 # Client onboarding checklist
 
 The client ends up owning everything — their own AI assistant access, their
-own scheduler account, their own social accounts. Loopwork's role is to set
+own scheduler account, their own social accounts. SetupYours's role is to set
 it up with them and hand it off, not to hold any of their credentials
 ongoing. Do this live with the client (call or in person); don't ask them to
 send passwords or verification codes over chat/email.
@@ -26,7 +26,7 @@ before a session — provider plans and features change.
       ContentStudio, AdaptlyPost).
 - [ ] The client connects their social accounts to that scheduler
       themselves (OAuth sign-in) — never hand their login details to anyone
-      else, including Loopwork.
+      else, including SetupYours.
 
 ## 3. Setup (done together, with the client driving the actual sign-ins)
 

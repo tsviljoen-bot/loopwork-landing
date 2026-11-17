@@ -213,6 +213,38 @@ section { padding: 72px 0; }
 }
 .site-footer p { font-size: 0.85rem; margin: 0; }
 
+.social-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+}
+.social-links a {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.social-links a:hover { text-decoration: underline; }
+.social-links a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 @media (max-width: 760px) {
   .how .steps, .services .steps { grid-template-columns: 1fr; }
   .scenario-grid { grid-template-columns: 1fr; }

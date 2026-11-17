@@ -1,4 +1,4 @@
-# Loopwork — AI automation for small businesses (landing page)
+# SetupYours — AI automation for small businesses (landing page)
 
 **Live at:** https://tsviljoen-bot.github.io/loopwork-landing/
 
@@ -12,7 +12,7 @@ demand.
 ongoing managed-posting service. The client ends up with their own accounts
 — Grok/X, a scheduler, their social accounts, and/or their accounting
 platform — all connected and configured, then they run it themselves from
-their own chat going forward. Loopwork's job is the setup and handoff, not
+their own chat going forward. SetupYours's job is the setup and handoff, not
 sitting in the loop day-to-day (an ongoing retainer can be a separate,
 optional offer — see "Business-model note" below).
 
@@ -34,13 +34,10 @@ at setup time — fill it in with what you learned during discovery, then
 give the whole thing to whichever AI assistant ends up connected as its
 starting context (brand voice, boundaries, what it's actually there to do).
 [`HANDOVER-LOOPWORK-SELF.md`](HANDOVER-LOOPWORK-SELF.md) is a filled-in
-example, using Loopwork as its own first client to promote itself —
+example, using SetupYours as its own first client to promote itself —
 hand it [`SITE-CONTENT-REFERENCE.md`](SITE-CONTENT-REFERENCE.md) (the
 verbatim live site text) alongside it, so the assistant stays consistent
 with what the page actually says.
-
-"Loopwork" is a placeholder working name — check domain/trademark availability
-before using it publicly.
 
 **Before promoting this to anyone:** the actual service mechanics (Grok/AI
 + scheduler, or AI + accounting connector) have never been run end-to-end —
@@ -90,9 +87,8 @@ for either.
 
 ## Still needs your input
 
-- A real contact address in place of the `hello@loopwork.example`
-  placeholder (`CONTACT_EMAIL` in `script.js`, and the footer/lighter-CTA
-  links in `index.html`).
+- [x] Real contact address: `setupyours.za@gmail.com` (`CONTACT_EMAIL` in
+  `script.js`, and the mailto link in `index.html`).
 - No analytics on the page yet, so there's no way to tell if it's actually
   converting — worth adding once you have a provider account for it.
 
