@@ -18,7 +18,7 @@ x.ai/bot before you rule it in or out for good.
 
 Test the cheaper, more likely-real path instead: a scheduler's own built-in
 AI drafting (Postiz, ContentStudio, AdaptlyPost, etc.) connected to a real
-social account. If that works, Loopwork's "AI assistant" is built on that
+social account. If that works, SetupYours' "AI assistant" is built on that
 for now, not on xAI's specific computer-use-agent tier — nothing on the
 landing page commits to the Grok Bot name specifically, so this doesn't
 require changing the pitch.
