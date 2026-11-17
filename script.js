@@ -14,7 +14,7 @@ const CLOUDINARY_UPLOAD_PRESET = 'YOUR_UNSIGNED_PRESET';
 // submitting opens a prefilled email to this address instead — the visitor
 // still has to hit send themselves, but nothing is silently lost. Swap in
 // a real backend later for a smoother (no-click-required) version of this.
-const CONTACT_EMAIL = 'hello@loopwork.example';
+const CONTACT_EMAIL = 'setupyours.za@gmail.com';
 // ---------------------------------------------------------------------
 
 const form = document.getElementById('lead-form');
