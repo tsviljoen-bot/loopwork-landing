@@ -69,6 +69,30 @@ exchange for a testimonial."
   becomes a coordinated post set across platforms — drafted, approved,
   scheduled, done.
 
+## Six ways to run a small business more efficiently with AI
+
+(Standalone educational section, free advice, not gated behind the service)
+
+- **Batch it once a week** — Approve a week's worth of drafts in one
+  sitting instead of scrambling for something to post every day. The
+  assistant can queue them; you just review.
+- **Feed it real photos, not stock** — Drafts built from what actually
+  happened this week — real stock, real jobs, real specials — read as
+  authentic. Stock photos read as generic, AI or not.
+- **Ask it before you post, never after** — The moment an assistant
+  publishes without checking first is the moment it stops being useful
+  and starts being risky. Keep the approval step, always.
+- **Check your numbers before Friday** — A cash flow question answered on
+  Monday gives you a week to act on it. The same question answered after
+  the fact is just a post-mortem.
+- **One real sample beats ten instructions** — "Friendly and
+  professional" means nothing to an AI. A real post or email you've
+  actually written teaches it your voice far faster than a list of
+  adjectives.
+- **Start on one platform, not four** — Nail the habit — the approvals,
+  the cadence, the voice — on one channel before spreading the same setup
+  across three more.
+
 ## Why small businesses use this instead of an agency
 
 - No monthly agency retainer — pay for a setup, not a headcount.
