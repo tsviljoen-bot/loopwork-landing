@@ -49,12 +49,10 @@ answers about SetupYours stays consistent with what the page actually says.
   profiles exist and are linked from the site footer. **Not connected
   to a scheduler yet — nothing posts automatically.** TikTok and
   LinkedIn are not set up.
-- What counts as worth posting about: the founding-client offer (first 3
-  clients get a free setup in exchange for a testimonial), plain
-  explanations of what the service does and why it's not risky, the FAQ's
-  objections answered one at a time (cost, trust, "is this official
-  Grok/xAI"), behind-the-scenes of building it, and — once there's one —
-  a real client case study.
+- What counts as worth posting about: plain explanations of what the
+  service does and why it's not risky, the FAQ's objections answered one
+  at a time (cost, trust, "is this official Grok/xAI"), behind-the-scenes
+  of building it, and — once there's one — a real client case study.
 - Posting cadence: 2-3 times a week to start, low enough that every draft
   gets reviewed before anything goes out.
 - Media provided at setup: none yet beyond the live site itself —

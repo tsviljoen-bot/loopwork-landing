@@ -77,13 +77,9 @@ end-to-end yet. The realistic path is:
 
 ## Pricing
 
-Founding-client offer: first 3 clients get a free setup (either service
-line) in exchange for a testimonial and permission to use their business as
-a case study. There's no backend counter — once 3 are signed, manually
-update the hero badge and FAQ answer in `index.html` to reflect standard
-pricing: social media setup R4,000–R7,000 once-off, financial visibility
-setup R7,000–R12,000 once-off, optional R500–R1,000/month support retainer
-for either.
+Standard pricing, no founding-client discount: social media setup
+R4,000–R7,000 once-off, financial visibility setup R7,000–R12,000
+once-off, optional R500–R1,000/month support retainer for either.
 
 ## Still needs your input
 

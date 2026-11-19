@@ -102,12 +102,9 @@ CTA: "See if it fits your business"
 ## FAQ
 
 **What does this actually cost?**
-We're onboarding our first 3 founding clients for free, in exchange for a
-testimonial and permission to use your business as a case study. Once
-those spots are filled, standard pricing applies: social media setup from
-R4,000–R7,000 once-off, financial visibility setup from R7,000–R12,000
-once-off, with an optional R500–R1,000/month support retainer for either.
-No hidden ongoing fee unless you choose that retainer.
+Social media setup is R4,000–R7,000 once-off. Financial visibility setup
+is R7,000–R12,000 once-off. Either can add an optional R500–R1,000/month
+support retainer. No hidden ongoing fee unless you choose that retainer.
 
 **Is this an official Grok / xAI product?**
 No. SetupYours is an independent setup service. We configure AI assistants
