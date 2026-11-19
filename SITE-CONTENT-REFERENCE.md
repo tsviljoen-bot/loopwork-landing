@@ -19,9 +19,6 @@ retainer, no new dashboard.
 
 CTA: "See if it fits your business"
 
-Badge: "Now onboarding our first 3 founding clients — free setup, in
-exchange for a testimonial."
-
 ## How it works
 
 1. **We set it up** — We configure your own AI assistant on your own
