@@ -58,5 +58,5 @@ Delete whichever service line below doesn't apply to this client.
 ## Who to contact if this breaks
 
 - Business owner's name and preferred contact method: `[ ]`
-- Loopwork is not in this loop day-to-day unless an ongoing support
+- SetupYours is not in this loop day-to-day unless an ongoing support
   retainer was agreed (see the README's business-model note).

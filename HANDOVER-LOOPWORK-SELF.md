@@ -1,17 +1,17 @@
-# Loopwork — handover brief (self)
+# SetupYours — handover brief (self)
 
-Filled-in example of `HANDOVER-TEMPLATE.md`, using Loopwork as its own
+Filled-in example of `HANDOVER-TEMPLATE.md`, using SetupYours as its own
 first client — promoting itself the same way it would promote a real
 client's business. Fill in the one remaining bracket (owner contact)
 before pasting this into Grok or whichever assistant ends up connected.
 
 Give the assistant [`SITE-CONTENT-REFERENCE.md`](SITE-CONTENT-REFERENCE.md)
 alongside this brief — the verbatim site text, so anything it drafts or
-answers about Loopwork stays consistent with what the page actually says.
+answers about SetupYours stays consistent with what the page actually says.
 
 ## Who this is for
 
-- Business name: Loopwork
+- Business name: SetupYours
 - What they sell / do: A one-time setup service that configures an AI
   assistant on a small business's own accounts — either running their
   social media (drafting and scheduling posts) or giving them
@@ -23,7 +23,7 @@ answers about Loopwork stays consistent with what the page actually says.
   for it.
 - One thing that makes them different: the client ends up owning
   everything — their own accounts, their own AI assistant, no ongoing
-  dependency on Loopwork unless they want a support retainer. Pay once for
+  dependency on SetupYours unless they want a support retainer. Pay once for
   the setup, not a monthly fee forever.
 
 ## Brand voice
@@ -43,9 +43,12 @@ answers about Loopwork stays consistent with what the page actually says.
 
 ### Social media
 
-- Platforms connected: Instagram, TikTok, LinkedIn, X — **not yet
-  connected for real; see the note at the bottom before expecting
-  anything to actually post.**
+- Platforms: Instagram (https://www.instagram.com/setupyours.za/),
+  X (https://x.com/SetupYours), and Facebook
+  (https://www.facebook.com/profile.php?id=61596677700308). Public
+  profiles exist and are linked from the site footer. **Not connected
+  to a scheduler yet — nothing posts automatically.** TikTok and
+  LinkedIn are not set up.
 - What counts as worth posting about: the founding-client offer (first 3
   clients get a free setup in exchange for a testimonial), plain
   explanations of what the service does and why it's not risky, the FAQ's
@@ -59,7 +62,7 @@ answers about Loopwork stays consistent with what the page actually says.
   reasonable starting visual until there's a real case study.
 
 (Financial-visibility section intentionally removed — not applicable to
-promoting Loopwork itself.)
+promoting SetupYours itself.)
 
 ## Hard boundaries
 
@@ -79,9 +82,10 @@ promoting Loopwork itself.)
 
 ---
 
-**Before this can run anything:** filling in this brief only seeds an
-assistant's context — it doesn't connect any accounts. Loopwork itself
-still needs real Instagram/TikTok/LinkedIn/X accounts and a scheduler
-(Postiz/ContentStudio/etc.) connected, the same steps `ONBOARDING.md`
-walks a real client through. Handing an assistant this brief with nothing
-actually connected yet won't make anything post.
+**Before this can post anything:** filling in this brief only seeds an
+assistant's context — it doesn't connect any accounts. SetupYours has
+public Instagram, X, and Facebook profiles (linked from the site), but
+they are not connected to a scheduler (Postiz/ContentStudio/etc.) yet.
+TikTok and LinkedIn are not set up. Connecting a scheduler is the same
+work `ONBOARDING.md` walks a real client through. Handing an assistant
+this brief with nothing actually connected yet won't make anything post.

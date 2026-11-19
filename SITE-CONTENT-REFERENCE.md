@@ -1,4 +1,4 @@
-# Loopwork — full site content, for the assistant's reference
+# SetupYours — full site content, for the assistant's reference
 
 Verbatim text from the live site (https://tsviljoen-bot.github.io/loopwork-landing/),
 pulled from source rather than scraped, so the FAQ's collapsed answers are
@@ -113,7 +113,7 @@ once-off, with an optional R500–R1,000/month support retainer for either.
 No hidden ongoing fee unless you choose that retainer.
 
 **Is this an official Grok / xAI product?**
-No. Loopwork is an independent setup service. We configure AI assistants
+No. SetupYours is an independent setup service. We configure AI assistants
 (including ones built on Grok) on your own accounts — we're not Grok,
 xAI, or any platform we connect you to, and none of them endorse us.
 
@@ -141,20 +141,24 @@ whether this is a good fit."
 Form fields: name, business name, email, platforms that matter most
 (optional), photos/videos (optional, up to 6 files/25MB each).
 Lighter option: "Not ready for all that? Just ask us a question instead"
-→ mailto link (placeholder address, see README — needs a real one).
+→ mailto:setupyours.za@gmail.com
 
 ## Footer
 
-"Loopwork is an independent service and is not affiliated with, endorsed
+Instagram: https://www.instagram.com/setupyours.za/
+X: https://x.com/SetupYours
+Facebook: https://www.facebook.com/profile.php?id=61596677700308
+
+"SetupYours is an independent service and is not affiliated with, endorsed
 by, or sponsored by any AI platform or model provider whose tools it may
 use."
 
 ## Known gaps the assistant should be aware of
 
-- The lead form's mailto link still uses a placeholder address
-  (`hello@loopwork.example`) — don't quote this as if it's a confirmed
-  working contact channel until the README's placeholder is replaced.
+- [x] Contact email is setupyours.za@gmail.com (the "Just ask us a question"
+  mailto, and `CONTACT_EMAIL` in `script.js`).
 - No real client, testimonial, or case study exists yet — don't invent or
   imply one exists.
-- No social accounts or scheduler are connected yet for Loopwork itself —
-  see the note at the bottom of `HANDOVER-LOOPWORK-SELF.md`.
+- [x] Public social profiles are linked in the footer: Instagram, X, and
+  Facebook. A scheduler is not connected yet, so nothing posts
+  automatically — see the note at the bottom of `HANDOVER-LOOPWORK-SELF.md`.
